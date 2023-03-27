@@ -11,7 +11,7 @@ class ClearResponse<DATA, ERROR> {
     return ClearResponse<DATA, ERROR?>(data: data, error: null);
   }
 
-  static ClearResponse<DATA?, ERROR> failed<DATA, ERROR>(ERROR data) {
+  static ClearResponse<DATA?, ERROR> fail<DATA, ERROR>(ERROR data) {
     return ClearResponse<DATA?, ERROR>(data: null, error: data);
   }
 }

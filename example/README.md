@@ -36,12 +36,12 @@ Future<void> main() async {
 }
 ```
 
-or you can use the shortcut methods .success and .failed
+or you can use the shortcut methods .success and .fail
 ```dart
 ClearResponse.success<String?, ClearErrorResponse?>('Hello world');
 ```
 ```dart
-ClearResponse.failed<String?, ClearErrorResponse?>(ClearErrorResponse(
+ClearResponse.fail<String?, ClearErrorResponse?>(ClearErrorResponse(
     message: 'Error message',
     code: 500,
 ));

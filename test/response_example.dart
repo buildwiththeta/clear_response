@@ -8,7 +8,7 @@ Future<ClearResponse<String?, ClearErrorResponse?>> genericMethod() async {
     );
     return ClearResponse.success<String?, ClearErrorResponse?>(response);
   } catch (e) {
-    return ClearResponse.failed<String?, ClearErrorResponse?>(
+    return ClearResponse.fail<String?, ClearErrorResponse?>(
       ClearErrorResponse(
         message: e.toString(),
         code: 500,

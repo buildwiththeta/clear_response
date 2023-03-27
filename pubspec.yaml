@@ -1,6 +1,6 @@
 name: clear_response
 description: A clear response package to handle errors and data type return
-version: 0.0.1
+version: 0.0.2
 homepage: https://teta.so
 repository: https://github.com/teta-so/clear_response
 

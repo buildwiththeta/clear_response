@@ -1,0 +1,14 @@
+name: clear_response
+description: A clear response package to handle errors and data type return
+version: 0.0.1
+homepage: https://teta.so
+repository: https://github.com/teta-so/clear_response
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+
+dev_dependencies:
+  flutter_lints: ^2.0.1
+
